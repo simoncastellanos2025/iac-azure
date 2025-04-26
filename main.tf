@@ -10,7 +10,7 @@ terraform {
 # main.tf
 provider "azurerm" {
   features {}
-   subscription_id = "your-subscription-id"
+  subscription_id = "c5941903-69ad-4ba1-b201-6f86d9a24226"
   client_id       = "your-client-id"
   client_secret   = "your-client-secret"
   tenant_id       = "ac5b3248-01a9-4eb0-bdf4-e89223653965"
