@@ -10,7 +10,11 @@ terraform {
 # main.tf
 provider "azurerm" {
   features {}
-  skip_provider_registration = true  # Add this line
+   subscription_id = "your-subscription-id"
+  client_id       = "your-client-id"
+  client_secret   = "your-client-secret"
+  tenant_id       = "your-tenant-id"
+  #skip_provider_registration = true  # Add this line
 }
 
 resource "azurerm_resource_group" "rg_example" {
